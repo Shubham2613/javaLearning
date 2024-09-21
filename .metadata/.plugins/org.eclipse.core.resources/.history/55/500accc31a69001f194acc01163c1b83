@@ -1,0 +1,10 @@
+package methodsAndConstructors;
+
+public class GrettingMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

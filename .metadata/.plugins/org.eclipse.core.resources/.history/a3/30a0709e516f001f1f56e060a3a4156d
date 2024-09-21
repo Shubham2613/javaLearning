@@ -1,0 +1,9 @@
+package hashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet<Integer> hs = new HashSet<>();
+	}
+
+}

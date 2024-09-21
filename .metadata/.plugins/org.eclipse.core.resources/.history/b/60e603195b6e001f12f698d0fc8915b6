@@ -1,0 +1,34 @@
+package testSuperKeyword;
+
+
+class Animal{
+	String color = "white";
+	
+	public void eat() {
+		System.out.println("Eat...");
+	}
+}
+
+class Dog extends Animal{
+	String color = "Black";
+	public void displayColor(){
+		System.out.print(super.color);
+	}
+	
+	public void eat() {
+		System.out.println("Eatting Bread.......");
+	}
+}
+
+public class SuperKeyword {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.displayColor();
+		d.eat();
+		
+		
+
+	}
+
+}
